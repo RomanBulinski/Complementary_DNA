@@ -9,5 +9,14 @@ public class TestMain {
         assertEquals("AATT", Main.makeComplement("TTAA"));
     }
 
+    @Test
+    public void makeComplementTest2(){
+        assertEquals("TAACG", Main.makeComplement("ATTGC"));
+    }
+
+    @Test
+    public void makeComplementTest3(){
+        assertEquals("CATA", Main.makeComplement("GTAT"));
+    }
 
 }
